@@ -1,2 +1,1 @@
-# MiniFridge.github.io
- test website
+test website

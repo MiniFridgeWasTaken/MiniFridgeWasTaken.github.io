@@ -1,15 +1,18 @@
 body{
-    background-color: hsla(281, 68%, 48%, 0.966);
-}
+    background-color: #161b22;
 
 h1{
     color:white;
-    font-family: Verdana, arial, Tahoma, sans-serif;
+    font-family: system-ui, Roboto, Helvetica, Arial, sans-serif;
     font-size: 21;
+    font-weight: bold;
+    font-style: normal;
 }
 
 p{
-    color: orange;
-    font-family: Verdana, arial, Tahoma, sans-serif;
+    color: white;
+    font-family: system-ui,Roboto, Helvetica, Arial, sans-serif;
     font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
 }

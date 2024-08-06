@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 body{
     background-color: #161b22;
+    background: linear-gradient(to right, #070e18, #161b22);
+}
 
 h1{
     color:white;
     font-family: system-ui, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 21;
+    font-size: 30px;
     font-weight: bold;
     font-style: normal;
+    height: 50px;
 }
 
 p{
     color: white;
-    font-family: Verdana, arial, Tahoma, sans-serif;
-    font-size: 1em;
+    font-family: Roboto, Arial, Helvetica, sans-serif, Arial;
+    font-size: 18px;
 }

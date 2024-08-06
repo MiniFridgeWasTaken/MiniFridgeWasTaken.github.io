@@ -3,19 +3,99 @@
 body{
     background-color: #161b22;
     background: linear-gradient(to right, #070e18, #161b22);
+    display:inline;
+    flex-direction: column;
+    margin: 0;
+    flex-direction: column;
 }
+
 
 h1{
     color:white;
-    font-family: system-ui, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
-    height: 50px;
+    height: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin: center;
+}
+
+h2,h3{
+    color:white;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    height: 30px;
+    margin-left: 25%;
+    
+}
+
+hr{
+    width: 50%;
+    border: 1px solid #c8d1db;
+    margin: 0 auto 20px;
+}
+
+h5{
+    font-family: Roboto, Arial,Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 25%;
 }
 
 p{
     color: white;
     font-family: Roboto, Arial, Helvetica, sans-serif, Arial;
     font-size: 18px;
+    max-width: 50%;
+    text-align: justify;
+    width: fit-content;
+    margin-left: 25%;
+}
+
+a{
+    color: rgb(157, 190, 216);
+    text-align: center;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: #303030;
+    color: white;
+}
+
+th {
+    background-color:#303030;
+}
+
+.code-container{
+    position: relative;
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#2d3143;
+    background: #2d3143;
+    padding: 10px;
+    overflow-x: auto;
+    color: #9dbed8;
+
+}
+
+pre{
+    margin:0;
+    font-family: monospace;
+    white-space: pre-warp;
 }
